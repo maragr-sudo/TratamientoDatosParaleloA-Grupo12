@@ -17,3 +17,6 @@ EXPOSE 8080
 CMD ["python", "app.movie.py"]
 
 
+
+
+# Dockerfile para el microservicio de recomendación de películas
