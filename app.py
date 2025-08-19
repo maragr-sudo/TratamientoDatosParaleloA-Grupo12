@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request #inicializacion de flash
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/') #ruta principal
 def home():
     return jsonify ({'message': 'Bienvenido a la API de Microservicio Base - Tratamiento de Datos Paralelo A'}) 
 
